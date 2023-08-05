@@ -14,8 +14,9 @@ mkdir -p "$DEFAULTDIR"
 cd "$DEFAULTDIR"
 
 
-wget https://www.stereolabs.com/developers/downloads/archives/ZED_SDK_Linux_JTX2_v2.2.1.run 
-chmod +x ZED_SDK_Linux_JTX2_v2.2.1.run
-./ZED_SDK_Linux_JTX2_v2.2.1.run
+#wget https://www.stereolabs.com/developers/downloads/archives/ZED_SDK_Linux_JTX2_v2.2.1.run 
+# I will place the file before I kick off the install
+chmod +x ZED_SDK_Tegra_L4T32.7_v4.0.5.zstd.run
+./ZED_SDK_Tegra_L4T32.7_v4.0.5.zstd.run
 
 
