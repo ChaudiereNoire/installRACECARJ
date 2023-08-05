@@ -1,3 +1,3 @@
-# Alias the Sparkfun 9DoF as imu, and the electronic speed controller as VESC
-ACTION=="add", ATTRS{idVendor}=="1b4f", ATTRS{idProduct}=="9d0f", SYMLINK+="imu"
+# Alias the Sparkfun Artemis 9dof as imu, and the electronic speed controller as VESC
+ACTION=="add", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", SYMLINK+="imu"
 ACTION=="add", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", SYMLINK+="vesc"
