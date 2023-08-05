@@ -16,6 +16,24 @@ sudo apt-get install ros-melodic-ros-base -y
 # sudo apt-get install ros-kinetic-PACKAGE
 # e.g.
 # sudo apt-get install ros-melodic-navigation
+sudo apt-get install -y ros-melodic-ackermann.msgs
+sudo apt-get install -y ros-melodic-serial
+sudo apt-get install -y ros-melodic-urdf
+sudo apt-get install -y ros-melodic-robot-pose-ekf
+sudo apt-get install -y ros-melodic-tf
+sudo apt-get install -y ros-melodic-pcl-conversions
+sudo apt-get install -y ros-melodic-hector-mapping
+sudo apt-get install -y ros-melodic-gmapping
+sudo apt-get install -y ros-melodic-image-transport
+sudo apt-get install -y ros-melodic-rviz
+sudo apt-get install -y ros-melodic-vision-opencv
+sudo apt-get install -y ros-melodic-laser-scan-matcher
+sudo apt-get install -y ros-melodic-joy-teleop
+sudo apt-get install -y ros-melodic-joy
+sudo apt-get install -y ros-melodic-urg-node
+sudo apt-get install -y ros-melodic-razor-imu-9dof
+sudo apt-get install -y ros-melodic-robot-state-publisher
+sudo apt-get install -y ros-melodic-tf2-geometry-msgs
 #
 # To find available packages:
 # apt-cache search ros-melodic
